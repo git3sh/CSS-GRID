@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.site{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.page-title{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.musthead{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.main-content{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.sidebar{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.footer{
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
+.green{
+    background-color: greenyellow;
+    width: 100%;
+    height: 100%;
+}
+.red{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+.blue{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+.purlpe{
+    background-color:purple;
+    width: 100%;
+    height: 100%;
+}
+.yellow{
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+}
